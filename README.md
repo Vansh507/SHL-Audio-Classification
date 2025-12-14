@@ -4,21 +4,13 @@
 ## Problem Statement
 -Given 45–60 second speech recordings, the task is to predict a grammar proficiency score using acoustic features extracted from audio data.
 
-## 🗂 Dataset Structure
-
-The dataset (not included due to size and licensing constraints) is expected in the following format:
-
+## Dataset Structure
+-The dataset (not included due to size and licensing constraints) is expected in the following format:
 ```
 dataset/
 ├── audios/
 │ ├── train/
-│ │ ├── audio_1.wav
-│ │ ├── audio_2.wav
-│ │ └── ...
 │ └── test/
-│ ├── audio_101.wav
-│ ├── audio_102.wav
-│ └── ...
 └── csvs/
 ├── train.csv
 └── test.csv
