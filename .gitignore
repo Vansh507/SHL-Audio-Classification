@@ -1,0 +1,12 @@
+# Ignore data
+dataset/
+*.wav
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+
+# Outputs
+submission.csv
