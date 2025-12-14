@@ -6,13 +6,20 @@
 
 ## Dataset Structure
 -The dataset (not included due to size and licensing constraints) is expected in the following format:
-      dataset/
-      ├── audios/
-      │ ├── train/
-      │ └── test/
-      ├── csvs/
-      │ ├── train.csv
-      │ └── test.csv
+
+dataset/
+├── audios/
+│ ├── train/
+│ │ ├── audio_1.wav
+│ │ ├── audio_2.wav
+│ │ └── ...
+│ └── test/
+│ ├── audio_101.wav
+│ ├── audio_102.wav
+│ └── ...
+└── csvs/
+├── train.csv
+└── test.csv
 
 ## Approach
 - Extracted **MFCC features** from audio using Librosa
