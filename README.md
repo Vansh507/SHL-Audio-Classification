@@ -43,5 +43,5 @@ dataset/
 - Use deep learning (CNN on spectrograms)
 - Incorporate speech rate and pause features
 
-**Author:** Vansh Chaudhary
-**Platform:** Kaggle Competition Project 
+**Author:** Vansh Chaudhary  
+**Platform:** Kaggle Competition Project
